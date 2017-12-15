@@ -27,6 +27,11 @@
             <artifactId>neotys-custom-action-util</artifactId>
             <version>1.0.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.6</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -53,6 +58,9 @@
                             <artifactSet>
                                 <excludes>
                                     <exclude>*:neotys-custom-action-api</exclude>
+                                    <exclude>*slf4j*</exclude>
+                                    <exclude>*.properties</exclude>
+                                    <exclude>*log4j*</exclude>
                                 </excludes>
                             </artifactSet>
                         </configuration>
