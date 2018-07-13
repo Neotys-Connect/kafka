@@ -8,7 +8,7 @@
     <version>1.0.0</version>
 
     <properties>
-        <neoload.folder>C:\NeoLoad</neoload.folder>
+        <neoload.folder>/Applications/NeoLoad 6.5</neoload.folder>
     </properties>
 
     <dependencies>
